@@ -131,25 +131,6 @@ Visit **http://localhost:8501** to use the app.
 }
 ```
 
----
-
-## Folder Structure
-
-```
-document-intelligence-app/
-├── app.py                      # Main Streamlit app
-├── utils/
-│   ├── image_utils.py          # Cropping, preprocessing, OCR helpers
-│   ├── pdf_utils.py            # Table extraction (pdfplumber, camelot)
-│   ├── llm_utils.py            # Vision LLM extraction and prompt logic
-├── requirements.txt
-├── README.md
-└── assets/
-    └── sample_docs/            # Example images/PDFs
-```
-
----
-
 ## Requirements
 
 - Python ≥ 3.10  
